@@ -13,3 +13,6 @@ build-backend = "flit_core.buildapi"
 
 [tool.flit.module]
 name = "advance_tds_fix"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
